@@ -10,5 +10,4 @@ build_jar:
     - jar -cvf out/artifacts/TimeInMillis_jar/TimeInMillis.jar out/production/TimeInMillis/Main.class
   artifacts:
     paths:
-      - out/artifacts/TimeInMillis_jar/*.jar
       - src/version.txt
