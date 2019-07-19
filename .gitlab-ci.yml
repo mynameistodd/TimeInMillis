@@ -1,0 +1,14 @@
+image: openjdk:12-jdk
+
+stages:
+  - build
+
+build_jar:
+  stage: build
+  script:
+    - javac -d out/production/TimeInMillis src/Main.java
+    - jar -cvf out/artifacts/TimeInMillis_jar/TimeInMillis.jar out/production/TimeInMillis/Main.class
+  artifacts:
+    paths:
+      - out/artifacts/TimeInMillis_jar/*.jar
+      - src/version.txt
