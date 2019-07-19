@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TimeInMillis:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TimeInMillis_jar</output-path>
+    <root id="archive" name="TimeInMillis.jar">
+      <element id="module-output" name="TimeInMillis" />
+    </root>
+  </artifact>
+</component>
